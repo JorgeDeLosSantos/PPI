@@ -1,8 +1,6 @@
-Introducción
-============
+# Introducción
 
-¿Qué es Python?
----------------
+## ¿Qué es Python?
 
 Generalmente cuando se define un lenguaje de programación, se hace referencia a sus características 
 más representativas. Siendo así, Python es un lenguaje de programación desarrollado a finales de los 

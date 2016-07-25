@@ -1,8 +1,6 @@
-Tipos de datos
-==============
+# Tipos de datos y operadores
 
-Enteros
--------
+## Enteros
 
 En matemáticas se clasifican como enteros aquellos números en el intervalo **(-oo, oo)**, 
 que no contienen una parte decimal o fraccionaria. Dadas las limitaciones de los ordenadores 
@@ -13,18 +11,14 @@ En Python existen 2 tipos de enteros: el tipo entero ordinario (int) y el entero
 La diferencia es precisamente el límite de representación de cada uno. Puede obtener información 
 acerca del máximo entero tecleando lo siguiente en el intérprete de Python:
 
-.. code:: python
-
 	>>> import sys
 	>>> max_int=sys.maxint
 	>>> max_intl=sys.maxsize
 
-Siendo ``max_int`` el entero ordinario máximo representado, generalmente este valor equivale a 
-**(2^31)-1**. El valor de ``max_intl`` corresponde al máximo entero largo.
+Siendo `max_int` el entero ordinario máximo representado, generalmente este valor equivale a 
+**(2^31)-1**. El valor de `max_intl` corresponde al máximo entero largo.
 
 Para definir un tipo entero no hace falta declararlo de forma explícita, por ejemplo:
-
-.. code:: python
 
 	>>> a=1
 	>>> b=100
@@ -37,14 +31,11 @@ Para definir un tipo entero no hace falta declararlo de forma explícita, por ej
 	<type 'int'>
 
 
-De coma flotante
-----------------
+## De coma flotante
 
 Los números de coma flotante son aquellos que normalmente conocemos como números reales. 
 En Python para que un valor numérico sea "reconocido" como real, debe utilizarse la función 
-``float`` o bien añadir la parte decimal del número, aun cuando esta sea nula:
-
-.. code:: python
+`float` o bien añadir la parte decimal del número, aun cuando esta sea nula:
 
 	>>> a=3
 	>>> b=float(3)
@@ -53,9 +44,7 @@ En Python para que un valor numérico sea "reconocido" como real, debe utilizars
 	(<type 'int'>, <type 'float'>, <type 'float'>)
 
 
-
-Booleanos
----------
+## Booleanos
 
 También conocidos como valores lógicos, son un tipo de dato fundamental, cuyo valor sólo 
 puede adquirir dos estados: verdadero y falso. Se utilizan comunmente para la toma de 
@@ -63,8 +52,6 @@ decisiones en conjunto con las estructuras de control de flujo. Las constantes b
 en Python se nombran mediante ``True`` y ``False``.
 
 Por ejemplo, si comparamos dos números enteros cualesquiera para ver si son iguales:
-
-.. code:: python
 
 	>>> a=10
 	>>> b=15
@@ -76,29 +63,14 @@ Por ejemplo, si comparamos dos números enteros cualesquiera para ver si son igu
 	True
 
 
-Cadenas de caracteres
----------------------
+## Cadenas de caracteres
 
 
-Listas
-------
+## Listas
 
 
-Tuplas
-------
-
-Esto es una tupla
-
-	>>> print "HOLA"
-
-::
-
-	print 1
-	import os
-	os.system('pause')
+## Tuplas
 
 
-
-Diccionarios
-------------
+## Diccionarios
 
