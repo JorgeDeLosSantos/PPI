@@ -1,2 +1,0 @@
-Introducción a la POO
-=====================

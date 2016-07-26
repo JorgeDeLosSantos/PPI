@@ -1,4 +1,5 @@
-ch0.md
-ch1.md
-ch2.md
-ch3.md
+intro.md
+lo-basico.md
+tipos-datos-y-operadores.md
+estructuras-de-control.md
+matplotlib.md
